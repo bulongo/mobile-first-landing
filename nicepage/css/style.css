@@ -1,0 +1,253 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    background: url('../images/1.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: #bbb;
+    display: grid;
+    align-content: center;
+}
+
+.header-text {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.header-text h3 {
+    margin-bottom: 10px;;
+    font-size: 2rem;
+}
+
+.info {
+    background: #54577C;
+    min-height: 800px;
+}
+
+.grouped-info {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 80px;
+    color: #ccc;
+}
+
+.grouped-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.grouped-info p {
+    margin-bottom: 40px;
+}
+
+.grouped-info button {
+    background-color: darkcyan;
+    width: 99px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #eee;
+    border: none;
+}
+
+.grouped-info img {
+    width: 350px;
+    margin-top: 80px;
+}
+
+main {
+    background-color: #eee;
+}
+
+.features {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+}
+
+.item {
+    margin: 30px;
+    margin-bottom: 80px;
+}
+
+.item h3 {
+    font-weight:500;
+    margin-bottom: 20px;
+}
+
+.item h4 {
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.item p {
+    margin-bottom: 15px;
+    font-weight: lighter;
+}
+
+main button {
+    background: darkcyan;
+    padding: 10px;
+    width: 120px;
+    color: white;
+    border-radius: 20px;
+}
+
+.mission {
+    background: #243119;
+}
+
+.for-humans {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: grid;
+}
+
+.for-humans h3 {
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+.for-humans p {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 55px;
+}
+
+.for-humans img {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.culture {
+    background: #182825 ;
+}
+
+.culture-item {
+    width: 80%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+}
+
+.culture-item img {
+    width: 35px;
+    margin-bottom: 10px;;
+}
+
+.culture-item h5 {
+    text-transform: uppercase;
+    color: #eee;
+    padding-bottom: 20px;;
+}
+
+.culture-item p {
+    color: #bbb;
+}
+
+/* create a new div to contain the image*/
+.connect-text {
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 90px;;
+}
+
+.connect-text h3 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.connect-text p {
+    margin-top: 10px;
+}
+
+.three {
+    width: 100vw;
+}
+
+.four {
+    width: 100vw;
+}
+
+.personal-info {
+    padding: 100px 0;
+    margin: -5px;
+    background: #3E687A;
+}
+
+.pit {
+    padding: 40px 20px;
+    color: #bbbb;
+}
+
+.pit h3 {
+    margin-bottom: 20px;
+}
+
+.personal-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.pit span {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.gallery {
+    padding: 100px 0 50px 0;
+}
+
+.gallery-text {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.gallery-text h3 {
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+.gallery-text p {
+    padding-bottom: 30px;
+}
+
+.gallery img {
+    width: 100vw;
+}
+
+.history {
+    margin: -55px 0; 
+    background: url('../images/6.jpg');
+    background-size:cover;
+    height: 400px;
+    display: grid;
+    justify-items: center;
+}
+
+.history p   {
+    width: 70%;
+    background: #8C271E;
+    height: 60%;
+    color: #bbb;
+    font-size: 1.5rem;
+    padding: 25px 10px;
+}
+
+footer {
+    margin-top: 50px;
+    background: grey;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+}
